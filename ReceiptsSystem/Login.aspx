@@ -1,16 +1,15 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="SignUp.aspx.vb" Inherits="ReceiptsSystem.SignUp" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Login.aspx.vb" Inherits="ReceiptsSystem.Login" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sign Up</title>
-  
+    <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <br />
+            Login<br />
             <br />
             <br />
             Name:<br />
@@ -21,18 +20,12 @@
             <asp:TextBox ID="TxtBoxEmail" runat="server"></asp:TextBox>
             <br />
             <br />
-            Password<br />
+            Password:<br />
             <asp:TextBox ID="TxtBoxPassword" runat="server"></asp:TextBox>
             <br />
             <br />
-            Role:<br />
-            <asp:RadioButton ID="RadioBtnEmp" runat="server" Text="Employer" />
             <br />
-            <asp:RadioButton ID="RadioBtnAdm" runat="server" Text="Administrator" />
-            <br />
-            <br />
-            <asp:Button ID="BtnSignUp" runat="server" Text="Sign up" />
-            <br />
+            <asp:Label ID="Label1" runat="server"></asp:Label>
             <br />
             <br />
             <br />

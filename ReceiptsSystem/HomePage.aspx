@@ -18,6 +18,11 @@
             <br />
             <br />
             <br />
+            <br />
+            Help<br />
+            Please contact Kamogelo on <a href="mailto:kamo.ngcobo@gmail.com">kamo.ngcobo@gmail.com</a> for enquires.
+            <br />
+            <asp:Button ID="BtnLogout" runat="server" Text="Logout" />
         </div>
     </form>
 </body>

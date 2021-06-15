@@ -32,24 +32,6 @@ Partial Public Class PictureAdd
     Protected WithEvents TxtBoxStore As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TxtBoxItems control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TxtBoxItems As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''BtnAdd control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BtnAdd As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''TxtBoxPrice control.
     '''</summary>
     '''<remarks>
@@ -57,4 +39,13 @@ Partial Public Class PictureAdd
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TxtBoxPrice As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Calendar1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Calendar1 As Global.System.Web.UI.WebControls.Calendar
 End Class

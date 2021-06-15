@@ -17,13 +17,16 @@
             <asp:TextBox ID="TxtBoxStore" runat="server"></asp:TextBox>
             <br />
             <br />
-            Items:<br />
-            <asp:TextBox ID="TxtBoxItems" runat="server"></asp:TextBox>
-            <asp:Button ID="BtnAdd" runat="server" Text="Add" />
-            <br />
-            <br />
             Total price:<br />
             <asp:TextBox ID="TxtBoxPrice" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            Date of purchase:
+            <br />
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />

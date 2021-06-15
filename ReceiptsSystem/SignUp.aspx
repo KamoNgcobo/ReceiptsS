@@ -5,6 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Sign Up</title>
+    <style>
+        body {
+            background-image: url('Sales-Receipt.jpg');
+            background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+        }
+
+        body {
+  background-color: darkgray;
+  text-align: center;
+  color:black;
+  font-size: x-large;
+}
+</style>
   
 </head>
 <body>

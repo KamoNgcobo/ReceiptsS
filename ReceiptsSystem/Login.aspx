@@ -32,11 +32,13 @@
             <asp:TextBox ID="TxtBoxPassword" runat="server"></asp:TextBox>
             <br />
             <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ForgetPassword.aspx" style="z-index: 1; left: 162px; top: 211px; position: absolute">Forgot Password</asp:HyperLink>
+            Role:<br />
             <br />
-            <asp:Label ID="Label1" runat="server"></asp:Label>
             <br />
+            <asp:Button ID="BtnLogin" runat="server" Text="Login" />
             <br />
-            <br />
+            <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 12px; top: 276px; position: absolute"></asp:TextBox>
             <br />
             <br />
             <br />

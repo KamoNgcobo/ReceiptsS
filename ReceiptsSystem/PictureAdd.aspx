@@ -13,6 +13,7 @@
             <br />
             <br />
             <br />
+            <br />
             Name of store:<br />
             <asp:TextBox ID="TxtBoxStore" runat="server"></asp:TextBox>
             <br />
@@ -22,9 +23,12 @@
             <br />
             <br />
             Date of purchase:
+            <asp:FileUpload ID="FileUpload1" runat="server" style="z-index: 1; left: 16px; top: 55px; position: absolute" />
             <br />
             <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Button ID="ButtonAdd" runat="server" Text="Add" />
             <br />
+            <asp:Button ID="ButtonBack" runat="server" style="z-index: 1; left: 19px; top: 557px; position: absolute" Text="Back" />
             <br />
             <br />
             <br />

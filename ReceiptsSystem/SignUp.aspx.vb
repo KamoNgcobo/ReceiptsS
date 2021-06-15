@@ -5,4 +5,8 @@
 
     End Sub
 
+    Protected Sub BtnSignUp_Click(sender As Object, e As EventArgs) Handles BtnSignUp.Click
+        Response.Redirect("Login.aspx")
+
+    End Sub
 End Class

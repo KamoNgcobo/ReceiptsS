@@ -50,11 +50,29 @@ Partial Public Class Login
     Protected WithEvents TxtBoxPassword As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label1 control.
+    '''HyperLink1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''BtnLogin control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnLogin As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''TextBox1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
 End Class

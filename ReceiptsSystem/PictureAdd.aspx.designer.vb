@@ -41,6 +41,15 @@ Partial Public Class PictureAdd
     Protected WithEvents TxtBoxPrice As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''FileUpload1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents FileUpload1 As Global.System.Web.UI.WebControls.FileUpload
+
+    '''<summary>
     '''Calendar1 control.
     '''</summary>
     '''<remarks>
@@ -48,4 +57,22 @@ Partial Public Class PictureAdd
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Calendar1 As Global.System.Web.UI.WebControls.Calendar
+
+    '''<summary>
+    '''ButtonAdd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ButtonAdd As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''ButtonBack control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ButtonBack As Global.System.Web.UI.WebControls.Button
 End Class

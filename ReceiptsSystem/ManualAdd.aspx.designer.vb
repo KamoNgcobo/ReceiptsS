@@ -23,31 +23,31 @@ Partial Public Class ManualAdd
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''TextBox6 control.
+    '''TxtBoxStore control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtBoxStore As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox5 control.
+    '''TxtBoxItems control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtBoxItems As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox4 control.
+    '''TxtBoxPrice control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtBoxPrice As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Calendar1 control.
@@ -57,4 +57,22 @@ Partial Public Class ManualAdd
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Calendar1 As Global.System.Web.UI.WebControls.Calendar
+
+    '''<summary>
+    '''BtnBack control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnBack As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''BtnAdd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnAdd As Global.System.Web.UI.WebControls.Button
 End Class

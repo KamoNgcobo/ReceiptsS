@@ -9,27 +9,26 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Manual add<br />
+            Manual add receipts<br />
             <br />
-            Add receipts
-            <br />
-            <br />
-            Name of store:
-            <br />
-            <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+            Name of store: <br />
+            <asp:TextBox ID="TxtBoxStore" runat="server"></asp:TextBox>
             <br />
             <br />
-            Items: <br />
-            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+            Items:
+            <br />
+            <asp:TextBox ID="TxtBoxItems" runat="server"></asp:TextBox>
             <br />
             <br />
             Price: <br />
-            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtBoxPrice" runat="server"></asp:TextBox>
             <br />
             <br />
             Date of purchase:<asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Button ID="BtnBack" runat="server" style="z-index: 1; left: 19px; top: 548px; position: absolute" Text="Back" />
             <br />
-&nbsp;<br />
+&nbsp;<asp:Button ID="BtnAdd" runat="server" Text="Add" />
+            <br />
             <br />
             <br />
             <br />

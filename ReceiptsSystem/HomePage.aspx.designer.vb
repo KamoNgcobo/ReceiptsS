@@ -23,6 +23,24 @@ Partial Public Class HomePage
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''BtnManual control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnManual As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''BtnPicture control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnPicture As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''BtnLogout control.
     '''</summary>
     '''<remarks>

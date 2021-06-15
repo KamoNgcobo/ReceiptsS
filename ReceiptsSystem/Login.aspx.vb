@@ -5,4 +5,11 @@
 
     End Sub
 
+    Protected Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
+        Response.Redirect("HomePage.aspx")
+    End Sub
+
+    Protected Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
 End Class

@@ -15,7 +15,10 @@
             <br />
             <br />
             <br />
+            <asp:Button ID="BtnManual" runat="server" Text="Manual add" />
             <br />
+            <br />
+            <asp:Button ID="BtnPicture" runat="server" Text="Picture add " />
             <br />
             <br />
             <br />

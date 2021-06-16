@@ -157,7 +157,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="ManualAdd.aspx" />
+    <Content Include="MethodAdd.aspx" />
     <Content Include="PictureAdd.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -239,11 +239,11 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ManualAdd.aspx.designer.vb">
-      <DependentUpon>ManualAdd.aspx</DependentUpon>
+    <Compile Include="MethodAdd.aspx.designer.vb">
+      <DependentUpon>MethodAdd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManualAdd.aspx.vb">
-      <DependentUpon>ManualAdd.aspx</DependentUpon>
+    <Compile Include="MethodAdd.aspx.vb">
+      <DependentUpon>MethodAdd.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />

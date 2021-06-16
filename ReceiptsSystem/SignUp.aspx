@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="SignUp.aspx.vb" Inherits="ReceiptsSystem.SignUp" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Sign Up</title>
@@ -14,7 +13,7 @@
         }
 
         body {
-  background-color: darkgray;
+  
   text-align: center;
   color:black;
   font-size: x-large;
@@ -23,7 +22,8 @@
   
 </head>
 <body>
-    <form id="form1" runat="server">
+
+    <form id="form1" runat="server" method ="post">
         <div>
             <br />
             <br />
@@ -33,11 +33,11 @@
             <br />
             <br />
             Email address:<br />
-            <asp:TextBox ID="TxtBoxEmail" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtBoxEmail" TextMode="Email" runat="server"></asp:TextBox>
             <br />
             <br />
             Password<br />
-            <asp:TextBox ID="TxtBoxPassword" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtBoxPassword" TextMode="Password" runat="server"></asp:TextBox>
             <br />
             <br />
             Role:<br />

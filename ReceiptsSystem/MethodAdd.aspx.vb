@@ -1,4 +1,4 @@
-﻿Public Class SignUp
+﻿Public Class MethodAdd
     Inherits System.Web.UI.Page
 
 
@@ -6,8 +6,7 @@
 
     End Sub
 
-    Protected Sub BtnSignUp_Click(sender As Object, e As EventArgs) Handles BtnSignUp.Click
-        Response.Redirect("Login.aspx")
+    Protected Sub MultiView1_ActiveViewChanged(sender As Object, e As EventArgs) Handles MultiView1.ActiveViewChanged
 
     End Sub
 End Class

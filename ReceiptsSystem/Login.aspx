@@ -25,11 +25,11 @@
             <br />
             <br />
             Email address:<br />
-            <asp:TextBox ID="TxtBoxEmail" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtBoxEmail" TextMode="Email" runat="server"></asp:TextBox>
             <br />
             <br />
             Password:<br />
-            <asp:TextBox ID="TxtBoxPassword" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtBoxPassword" TextMode="Password" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ForgetPassword.aspx" style="z-index: 1; left: 162px; top: 211px; position: absolute">Forgot Password</asp:HyperLink>

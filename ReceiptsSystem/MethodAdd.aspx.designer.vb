@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class ManualAdd
+Partial Public Class MethodAdd
 
     '''<summary>
     '''form1 control.
@@ -23,31 +23,31 @@ Partial Public Class ManualAdd
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''TxtBoxStore control.
+    '''MultiView1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TxtBoxStore As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents MultiView1 As Global.System.Web.UI.WebControls.MultiView
 
     '''<summary>
-    '''TxtBoxItems control.
+    '''TextBox1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TxtBoxItems As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TxtBoxPrice control.
+    '''TextBox2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TxtBoxPrice As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Calendar1 control.
@@ -59,13 +59,13 @@ Partial Public Class ManualAdd
     Protected WithEvents Calendar1 As Global.System.Web.UI.WebControls.Calendar
 
     '''<summary>
-    '''BtnBack control.
+    '''TextBox3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents BtnBack As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''BtnAdd control.

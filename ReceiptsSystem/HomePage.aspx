@@ -13,6 +13,7 @@
             <br />
             <br />
             <br />
+            <asp:Button ID="BtnData" runat="server" style="z-index: 1; left: 174px; top: 110px; position: absolute" Text="View data " />
             <br />
             <br />
             <asp:Button ID="BtnManual" runat="server" Text="Manual add" />

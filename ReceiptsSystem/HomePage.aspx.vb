@@ -10,7 +10,7 @@
     End Sub
 
     Protected Sub BtnManual_Click(sender As Object, e As EventArgs) Handles BtnManual.Click
-        Response.Redirect("ManualAdd.aspx")
+        Response.Redirect("MethodAdd.aspx")
 
     End Sub
 
@@ -18,5 +18,9 @@
         Response.Redirect("PictureAdd.aspx")
 
 
+    End Sub
+
+    Protected Sub BtnData_Click(sender As Object, e As EventArgs) Handles BtnData.Click
+        Response.Redirect("Data.aspx")
     End Sub
 End Class

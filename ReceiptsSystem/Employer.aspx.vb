@@ -1,12 +1,11 @@
-﻿Public Class MethodAdd
+﻿Public Class Employer
     Inherits System.Web.UI.Page
-
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
 
-    Protected Sub MultiView1_ActiveViewChanged(sender As Object, e As EventArgs) Handles MultiView1.ActiveViewChanged
-
+    Protected Sub BtnBack_Click(sender As Object, e As EventArgs) Handles BtnBack.Click
+        Response.Redirect("HomePage.aspx")
     End Sub
 End Class

@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class HomePage
+Partial Public Class Employer
 
     '''<summary>
     '''form1 control.
@@ -23,56 +23,29 @@ Partial Public Class HomePage
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''BtnManual control.
+    '''GridView1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents BtnManual As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
-    '''LblName control.
+    '''BtnBack control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents LblName As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents BtnBack As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''BtnPicture control.
+    '''SqlDataSource1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents BtnPicture As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''ButtonReceipts control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ButtonReceipts As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''ButtonUsers control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ButtonUsers As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''BtnLogout control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BtnLogout As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

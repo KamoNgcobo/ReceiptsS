@@ -141,8 +141,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Data.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Employer.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="ForgetPassword.aspx" />
@@ -158,8 +158,9 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="MethodAdd.aspx" />
+    <Content Include="ManualAdd.aspx" />
     <Content Include="PictureAdd.aspx" />
+    <Content Include="Receipts.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -209,19 +210,19 @@
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Data.aspx.designer.vb">
-      <DependentUpon>Data.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Data.aspx.vb">
-      <DependentUpon>Data.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Default.aspx.vb">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer.aspx.designer.vb">
+      <DependentUpon>Employer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer.aspx.vb">
+      <DependentUpon>Employer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ForgetPassword.aspx.designer.vb">
       <DependentUpon>ForgetPassword.aspx</DependentUpon>
@@ -247,12 +248,12 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="MethodAdd.aspx.designer.vb">
-      <DependentUpon>MethodAdd.aspx</DependentUpon>
+    <Compile Include="ManualAdd.aspx.designer.vb">
+      <DependentUpon>ManualAdd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MethodAdd.aspx.vb">
-      <DependentUpon>MethodAdd.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+    <Compile Include="ManualAdd.aspx.vb">
+      <DependentUpon>ManualAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -278,6 +279,13 @@
     </Compile>
     <Compile Include="PictureAdd.aspx.vb">
       <DependentUpon>PictureAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Receipts.aspx.designer.vb">
+      <DependentUpon>Receipts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Receipts.aspx.vb">
+      <DependentUpon>Receipts.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="SignUp.aspx.designer.vb">
@@ -340,7 +348,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

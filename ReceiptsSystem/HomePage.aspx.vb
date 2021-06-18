@@ -3,6 +3,7 @@
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
+
     End Sub
 
     Protected Sub BtnLogout_Click(sender As Object, e As EventArgs) Handles BtnLogout.Click
@@ -10,7 +11,7 @@
     End Sub
 
     Protected Sub BtnManual_Click(sender As Object, e As EventArgs) Handles BtnManual.Click
-        Response.Redirect("MethodAdd.aspx")
+        Response.Redirect("ManualAdd.aspx")
 
     End Sub
 
@@ -20,7 +21,11 @@
 
     End Sub
 
-    Protected Sub BtnData_Click(sender As Object, e As EventArgs) Handles BtnData.Click
-        Response.Redirect("Data.aspx")
+    Protected Sub ButtonUsers_Click(sender As Object, e As EventArgs) Handles ButtonUsers.Click
+        Response.Redirect("Employer.aspx")
+    End Sub
+
+    Protected Sub ButtonReceipts_Click(sender As Object, e As EventArgs) Handles ButtonReceipts.Click
+        Response.Redirect("Receipts.aspx")
     End Sub
 End Class

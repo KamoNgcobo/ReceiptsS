@@ -64,13 +64,16 @@ input[type=submit] {
   left: -35px;    
   content: "✖";    
 }    
-</style>    
+        .auto-style1 {
+            font-size: large;
+        }
+    </style>    
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
 
-            Forget password
+            <strong><span class="auto-style1">Forget password</span></strong>
             <br />
             <br />
             New password:

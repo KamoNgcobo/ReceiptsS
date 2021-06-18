@@ -32,6 +32,15 @@ Partial Public Class SignUp
     Protected WithEvents TxtBoxName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''RequiredFieldValidator1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''TxtBoxEmail control.
     '''</summary>
     '''<remarks>
@@ -39,6 +48,33 @@ Partial Public Class SignUp
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TxtBoxEmail As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''RequiredFieldValidator2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''RequiredFieldValidator4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''TxtBoxPassword control.
@@ -50,22 +86,13 @@ Partial Public Class SignUp
     Protected WithEvents TxtBoxPassword As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''RadioBtnEmp control.
+    '''TextBoxRole control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioBtnEmp As Global.System.Web.UI.WebControls.RadioButton
-
-    '''<summary>
-    '''RadioBtnAdm control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RadioBtnAdm As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents TextBoxRole As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''BtnSignUp control.

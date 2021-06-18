@@ -9,7 +9,7 @@
         Response.Redirect("HomePage.aspx")
     End Sub
 
-    Protected Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    Protected Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBoxRole.TextChanged
 
     End Sub
 End Class

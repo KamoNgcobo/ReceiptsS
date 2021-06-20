@@ -25,7 +25,6 @@
             <br />
             <asp:Button ID="BtnManual" runat="server" Text="Manual add" />
             <br />
-            <asp:Label ID="LblName" runat="server" style="z-index: 1; left: 695px; top: 18px; position: absolute; height: 28px; width: 174px"></asp:Label>
             <br />
             <asp:Button ID="BtnPicture" runat="server" Text="Picture add " />
             <br />

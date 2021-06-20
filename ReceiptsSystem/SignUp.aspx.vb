@@ -5,40 +5,30 @@ Imports System.Configuration
 Imports System.Data.SqlClient.SqlException
 
 
+
+
 Public Class SignUp
     Inherits System.Web.UI.Page
 
-    Dim objConn As SqlConnection
-    Dim SqlCom As SqlCommand
-
-    Dim dr As SqlDataAdapter
 
     Protected Sub BtnSignUp_Click(sender As Object, e As EventArgs) Handles BtnSignUp.Click
-        
+        Dim Sqlcon As New SqlConnection
+        Dim cmd As New SqlCommand
 
-        objConn.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\sbmoa\OneDrive\Desktop\ReceiptsSystem\ReceiptsSystem\App_Data\Receipts.mdf;Integrated Security=True"
-        objConn.Open()
-        SqlCom.Connection = objConn
-        SqlCom.CommandText = "Select * from Users where email = '" + TxtBoxEmail.Text + "'"
+        Sqlcon.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\sbmoa\OneDrive\Desktop\ReceiptsSystem\ReceiptsSystem\App_Data\Receipts.mdf;Integrated Security=True"
+        Sqlcon.Open()
 
+        cmd = New SqlCommand("INSERT INTO Users values('" & TxtBoxName.Text & "', '" & TxtBoxEmail.Text & "', '" & TxtBoxPassword.Text & "', '" & TextBox1.Text & "') ", Sqlcon)
 
-
-        SqlCom.ExecuteNonQuery()
-
-        objConn.Close()
-
-        objConn.Open()
-        SqlCom = New SqlCommand("INSERT INTO Users values('" + TxtBoxName.Text + "', '" + TxtBoxEmail.Text + "', '" + TxtBoxPassword.Text + "')", objConn)
-
-        Response.Redirect("Login.aspx")
-
-        objConn.Close()
-
-
+        If (TxtBoxName.Text = "" Or TxtBoxEmail.Text = "" Or TxtBoxPassword.Text = "" Or TextBox1.Text = "") Then
+            MsgBox("Field cannot be empty")
+        Else
+            cmd.ExecuteNonQuery()
+            Sqlcon.Close()
+            MsgBox("Information stored successfully")
+            Response.Redirect("Login.aspx")
+        End If
 
     End Sub
 
-    Protected Sub TextBoxRole_TextChanged(sender As Object, e As EventArgs) Handles TextBoxRole.TextChanged
-
-    End Sub
 End Class

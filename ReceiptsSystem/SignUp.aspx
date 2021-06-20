@@ -31,12 +31,12 @@
             Password<br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtBoxEmail" Display="Dynamic" ErrorMessage="Email required" style="z-index: 1; left: 549px; top: 169px; position: absolute">*</asp:RequiredFieldValidator>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TxtBoxPassword" Display="Dynamic" ErrorMessage="Password required" style="z-index: 1; left: 545px; top: 245px; position: absolute">*</asp:RequiredFieldValidator>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBoxRole" Display="Dynamic" ErrorMessage="Role required" style="z-index: 1; left: 541px; top: 317px; position: absolute">*</asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ErrorMessage="Role required" style="z-index: 1; left: 541px; top: 317px; position: absolute">*</asp:RequiredFieldValidator>
             <asp:TextBox ID="TxtBoxPassword" TextMode="Password" runat="server"></asp:TextBox>
             <br />
             <br />
             Role:<br />
-            <asp:TextBox ID="TextBoxRole" runat="server" style="height: 16px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="BtnSignUp" runat="server" Text="Sign up" />

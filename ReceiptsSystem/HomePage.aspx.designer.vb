@@ -32,15 +32,6 @@ Partial Public Class HomePage
     Protected WithEvents BtnManual As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''LblName control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents LblName As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''BtnPicture control.
     '''</summary>
     '''<remarks>

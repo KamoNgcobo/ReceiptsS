@@ -1,8 +1,7 @@
 # ReceiptsS
 
 - Project management: https://kamoge-team.monday.com/boards/1405888194
-- user manual is in commits. 
-- https://github.com/KamoNgcobo/ReceiptsS/blob/master/ReceiptsSystem/User_Manual.pdf
+- User manual : https://github.com/KamoNgcobo/ReceiptsS/blob/master/ReceiptsSystem/User_Manual.pdf
 
 - 👋 Hi, I’m Kamogelo Koketso Ngcobo
 - 👀 I’m interested in reading fictional books, listening to music and coding
